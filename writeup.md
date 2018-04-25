@@ -60,7 +60,7 @@ In the simulator, a path trajectory is supplied to the system in world coordinat
 
 X_c = trans_x * cos(psi) + trans_y * sin(psi);
 
-X_c = trans_y * cos(psi) - trans_x * sin(psi);
+Y_c = trans_y * cos(psi) - trans_x * sin(psi);
 
 where is trans_x and trans_y are translated points i.e. (x0 - xp) & (y0 - yp) denoting (x0,y0) as position of observation(waypoint) and (xp,yp) as position of the car both in world/map coordinates.
 
