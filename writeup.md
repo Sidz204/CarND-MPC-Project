@@ -20,10 +20,15 @@ In this the Ipopt optimiser library used, the state space also contains the syst
 Equations used for predicting future state and actuators:
 
  X(t+1) = X(t) + V(t) ∗ cos(ψ(t)) ∗ dt
+ 
  Y(t+1) = Y(t) + V(t) ∗ sin(ψ(t)) ∗ dt
+ 
  ψ(t+1) = ψ(t) + Lf / V(t) ∗ δ ∗ dt
+ 
  V(t+1) = V(t) + a(t) * dt
+ 
  cte(t+1) = f(x) - y(t) + V(t) ∗ sin(ψ(t)) ∗ dt
+ 
  eψ(t+1) = eψ(t) - Y(t) + V(t) ∗ sin(eψ(t)) ∗ dt
  
  where f(x) is the reference line
