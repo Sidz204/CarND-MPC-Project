@@ -74,7 +74,7 @@ In order to account for the system latency, the actuators values, are taken one-
 
 
 ### Results :
-See video of the results from my implementation [with_speed_60](). Just for the sake of checking the limit of the model , I have also tested it with speed 100 [with_speed_100]().The cars goes little wiggly in speed 100 and completes 1 or 2 laps successfully after which it goes off the track.More tuning can certainly help in achieving that speed. 
+See video of the results from my implementation [with_speed_60&100](https://youtu.be/Tu7i7e-GM6g). Just for the sake of checking the limit of the model , I have also tested it with speed 100. The cars goes little wiggly in speed 100 and completes 1 or 2 laps successfully after which it goes off the track.More tuning can certainly help in achieving that speed. 
 P.S. :While running my code for checking speed 100 please change ref_v and v_ref values to 100 in main.cpp & MPC.cpp files.
 
 
